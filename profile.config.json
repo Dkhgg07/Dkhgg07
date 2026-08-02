@@ -1,77 +1,89 @@
 {
-  "$schema": "./profile.schema.json",
   "profile": {
-    "name": "Your Name",
-    "username": "yourusername",
-    "headline": "AI Engineer & Product Builder",
-    "affiliation": "Your University or Company",
-    "location": "City, Country",
-    "status": "Learning / Building / Shipping",
+    "name": "Daksh Garg",
+    "username": "Dkhgg07",
+    "headline": "B.Tech Math & Computing, PEC",
+    "affiliation": "Punjab Engineering College",
+    "location": "Chandigarh, India",
+    "status": "Grinding CP + quant research",
     "about": [
-      "I build practical systems at the intersection of artificial intelligence, software engineering, and products people can trust.",
-      "My work combines technical exploration with a builder mindset: understand the problem, test the system, and share what actually works."
+      "B.Tech Math & Computing student (2028) at Punjab Engineering College, with a minor in Quantum Computing.",
+      "Focused on competitive programming, quantitative finance research, and machine learning projects."
     ]
   },
   "research": {
-    "primary": "AI Agents",
-    "direction": "Reliable autonomous systems",
-    "themes": "Tool use / evaluation / human control",
-    "narrative": "I am interested in systems that can observe state, use tools, evaluate outcomes, and take bounded actions with clear evidence and human oversight."
+    "primary": "Quant Finance",
+    "direction": "Alpha signal research",
+    "themes": "Reversal, volatility, cross-section",
+    "narrative": "Exploring predictive alpha expressions on WorldQuant Brain in Fast Expression Language, focusing on reversal, volatility, and cross-sectional signals for equity markets."
   },
   "focus": [
     {
-      "name": "AI Agents",
-      "description": "Autonomous workflows, tool use, evaluation, and reliable agent behavior."
+      "name": "Competitive Programming",
+      "description": "Solving algorithmic problems on Codeforces, spanning DP, greedy, game theory, and geometry."
     },
     {
-      "name": "Applied AI",
-      "description": "Turning model capabilities into useful and testable software systems."
+      "name": "Quant Finance",
+      "description": "Developing and backtesting alpha signals on WorldQuant Brain using Fast Expression Language."
     },
     {
-      "name": "Developer Tools",
-      "description": "Better workflows for building, testing, and operating modern software."
+      "name": "Machine Learning",
+      "description": "Building ML pipelines for classification, time-series prediction, and sentiment analysis."
     }
   ],
   "projects": [
     {
-      "name": "Project One",
-      "url": "https://github.com/yourusername/project-one",
-      "homepage": "",
-      "focus": "Primary project focus",
-      "summary": "A concise explanation of what the project does and why it matters.",
-      "heroLabel": "Primary build"
+      "name": "StockLSTM",
+      "url": "https://github.com/Dkhgg07/Stock_Price_Predition_Sentiment_LSTM",
+      "focus": "LSTM stock price prediction",
+      "summary": "LSTM and sentiment-driven stock price prediction served through FastAPI and Streamlit.",
+      "heroLabel": "Price Predictor"
     },
     {
-      "name": "Project Two",
-      "url": "https://github.com/yourusername/project-two",
-      "homepage": "",
-      "focus": "Secondary project focus",
-      "summary": "A second project that supports the professional direction of this profile.",
-      "heroLabel": "Active system"
+      "name": "Stratum",
+      "url": "https://github.com/Dkhgg07/Stratum",
+      "focus": "Python project",
+      "summary": "A Python project exploring algorithmic and data workflows.",
+      "heroLabel": "Stratum"
+    },
+    {
+      "name": "HRMS_Orchestrator",
+      "url": "https://github.com/Dkhgg07/HRMS_Orchestrator",
+      "focus": "JavaScript project",
+      "summary": "An orchestration project for HR management workflows.",
+      "heroLabel": "HRMS Orchestrator"
     }
   ],
-  "techStack": [
-    "TypeScript",
-    "Next.js",
-    "Python",
-    "PostgreSQL",
-    "Playwright"
-  ],
+  "techStack": ["C++", "Python", "FastAPI", "Streamlit", "PyTorch", "TensorFlow", "SQL"],
   "links": [
     {
-      "label": "GitHub",
-      "value": "yourusername",
-      "url": "https://github.com/yourusername",
-      "logo": "github",
-      "color": "0B1220"
+      "label": "LinkedIn",
+      "value": "daksh-garg",
+      "url": "https://www.linkedin.com/in/daksh-garg-139167338/",
+      "logo": "linkedin",
+      "color": "0A66C2"
+    },
+    {
+      "label": "Codeforces",
+      "value": "Dkhgg07",
+      "url": "https://codeforces.com/profile/Dkhgg07",
+      "logo": "codeforces",
+      "color": "1F8ACB"
+    },
+    {
+      "label": "LeetCode",
+      "value": "Dkhgg07",
+      "url": "https://leetcode.com/u/TfFBUdmPLP/",
+      "logo": "leetcode",
+      "color": "FFA116"
     }
   ],
   "activity": {
     "enabled": true,
-    "limit": 6
+    "limit": 5
   },
   "appearance": {
     "palette": "signal"
   },
-  "footer": "Building thoughtful systems and sharing what works."
+  "footer": "Thanks for stopping by — let's connect!"
 }
